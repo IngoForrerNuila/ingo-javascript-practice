@@ -1,6 +1,7 @@
 //format text with javascript and html in strings//
 document.write("<b><h1><center>THIS IS THE SECOND SLIDE JAVASCRIPT PRACTICE</h1><h2><center>");
 
+document.write('<h3>IF/ELSE exercises</h3>')
 //Practica de IF/ELSE CONDITIONALS//
 
 function greaterNum(firstNumber, secondNumber) {

@@ -4,6 +4,8 @@ document.write("<b><h1><center>THIS IS THE FIRST SLIDE OF JAVASCRIPT PRACTICE</h
 document.write("<br> <br>");
 //creating a fortune teller//
 
+document.write('<h3>VARIABLES exercises</h3>')
+
 var kids = 5;
 var partner = 'Paulina Rubio';
 var country = 'Germany';
@@ -146,14 +148,6 @@ function fahrenheitToCelsius() {
 }
 
 fahrenheitToCelsius();
-
-document.write("<br> <br>");
-
-//THE CALCULATOR//
-
-document.write("<center><h1>TIME FOR FUNCTIONS THE CALCULATOR</h1><center>");
-
-document.write("I WAS NOT ABLE TO START IT YET :-(");
 
 document.write("<br> <br>");
 
