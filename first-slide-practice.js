@@ -1,5 +1,5 @@
 //format text with javascript and html in strings//
-document.write("<b><h1><center>THIS IS A JAVASCRIPT PRACTICE</h1><h2><center>");
+document.write("<b><h1><center>THIS IS THE FIRST SLIDE OF JAVASCRIPT PRACTICE</h1><h2><center>");
 
 document.write("<br> <br>");
 //creating a fortune teller//
@@ -142,7 +142,7 @@ function fahrenheitToCelsius() {
     var fahrenheitTemperature = 120;
     var celsius = fahrenheitTemperature - 32 % 1.8;
     var result2 = fahrenheitTemperature + "°F is " + celsius + "°C";
-    document.write(result2);  
+    document.write(result2);
 }
 
 fahrenheitToCelsius();
@@ -155,10 +155,7 @@ document.write("<center><h1>TIME FOR FUNCTIONS THE CALCULATOR</h1><center>");
 
 document.write("<br> <br>");
 
-document.write("<center><h1>TIME FOR STRINGS</h1><center>");
+document.write("<img border='0' src='img/keanu1.jpeg' />");
 
-var guyName1 = "Boberto Churrutia";
-var guyname2 = "Lorenzo Menzo";
 
-document.getElementById("lol").innerHTML = guyName1 + " es primo de " +
-        guyname2;
+
