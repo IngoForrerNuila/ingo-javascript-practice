@@ -49,7 +49,7 @@ var fahrenheit = celsiusTemperature * 1.8 + 32;//here we convert the celsius int
 var result1 = celsiusTemperature + "°C is " + fahrenheit + "°F";//here we create variable result that contains both variables//
 document.write(result1);//printing the final variable//
 
-document.write("<br> <br>");
+document.write("<br>");
 
 var fahrenheitTemperature = 90;//here we have a random fahrenheit//
 var celsius = fahrenheitTemperature - 32 % 1.8;// we convert this fahrenheit to celsius//
@@ -59,7 +59,7 @@ document.write(result2); //printing variable//
 document.write("<br> <br>");
 
 
-document.write("<h1><center>EXERCISING FUNCTIONS NOW</h1><center>");
+document.write("<h1><center>EXERCISING FUNCTIONS NOW with arguments</h1><center>");
 
 //Making a fortune teller Ver.2 using Functions//
 
@@ -93,7 +93,72 @@ document.write("<br> <br>");
 
 //Making a puppy age calculator//
 
+function calculateDogAge(humanAge) {
+    var dogAge = humanAge * 7;
+    var answer = 'Your Dog Age is ' + dogAge + ' Years old';
+    document.write(answer);
+
+}
+
+calculateDogAge(7)
+
+document.write("<br> <br>");
+
+//Making a like time supply calculator with Functions//
+
+function calculateSupply(age, amountPerDay) {
+    var edadRestante = 90 - age;
+    var sacoNumeroDeDias = edadRestante * 365;
+    var cantidadDeSnaks = sacoNumeroDeDias * amountPerDay;
+    var laRespuesta = 'Currently you have ' + age + ' then You will need ' + cantidadDeSnaks + ' Chocolates to last you until the ripe old age of 90 years old';
+    document.write(laRespuesta);
+
+}
+
+calculateSupply(34, 2);
+document.write("<br>");
+calculateSupply(24, 4);
+document.write("<br>");
+calculateSupply(14, 1);
+
+document.write("<br><br>");
+
+//Lets Convert Temperature with Functions//
+
+function celsiusToFahrenheit() {
+    var celsiusTemperature = 40;
+    var fahrenheit = celsiusTemperature * 1.8 + 32;
+    var result1 = celsiusTemperature + "°C is " + fahrenheit + "°F";
+    document.write(result1);
+
+}
+
+celsiusToFahrenheit();
+
+document.write("<br>");
 
 
+function fahrenheitToCelsius() {
+    var fahrenheitTemperature = 120;
+    var celsius = fahrenheitTemperature - 32 % 1.8;
+    var result2 = fahrenheitTemperature + "°F is " + celsius + "°C";
+    document.write(result2);  
+}
 
+fahrenheitToCelsius();
 
+document.write("<br> <br>");
+
+//THE CALCULATOR//
+
+document.write("<center><h1>TIME FOR FUNCTIONS THE CALCULATOR</h1><center>");
+
+document.write("<br> <br>");
+
+document.write("<center><h1>TIME FOR STRINGS</h1><center>");
+
+var guyName1 = "Boberto Churrutia";
+var guyname2 = "Lorenzo Menzo";
+
+document.getElementById("lol").innerHTML = guyName1 + " es primo de " +
+        guyname2;
