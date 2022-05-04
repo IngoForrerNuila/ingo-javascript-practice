@@ -153,6 +153,8 @@ document.write("<br> <br>");
 
 document.write("<center><h1>TIME FOR FUNCTIONS THE CALCULATOR</h1><center>");
 
+document.write("I WAS NOT ABLE TO START IT YET :-(");
+
 document.write("<br> <br>");
 
 document.write("<img border='0' src='img/keanu1.jpeg' />");
