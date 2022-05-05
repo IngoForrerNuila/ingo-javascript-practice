@@ -1,10 +1,10 @@
 //format text with javascript and html in strings//
-document.write("<b><h1><center>THIS IS THE FIRST SLIDE OF JAVASCRIPT PRACTICE</h1><h2><center>");
+document.write("<b><h1><center>THIS IS THE FIRST SLIDE OF JAVASCRIPT PRACTICE</h1></b><center>");
 
 document.write("<br> <br>");
 //creating a fortune teller//
 
-document.write('<h3>VARIABLES exercises</h3>')
+document.write('<h3>Exercises with Variables</h3>')
 
 var kids = 5;
 var partner = 'Paulina Rubio';
@@ -61,7 +61,7 @@ document.write(result2); //printing variable//
 document.write("<br> <br>");
 
 
-document.write("<h1><center>EXERCISING FUNCTIONS NOW with arguments</h1><center>");
+document.write("<h3><center>Exercising Functions with Arguments</h3><center>");
 
 //Making a fortune teller Ver.2 using Functions//
 

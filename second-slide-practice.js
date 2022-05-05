@@ -1,5 +1,5 @@
 //format text with javascript and html in strings//
-document.write("<b><h1><center>THIS IS THE SECOND SLIDE JAVASCRIPT PRACTICE</h1><h2><center>");
+document.write("<b><h1><center>THIS IS THE SECOND SLIDE JAVASCRIPT PRACTICE</h1></b><center>");
 
 document.write('<h3>IF/ELSE exercises</h3>')
 //Practica de IF/ELSE CONDITIONALS//
@@ -63,7 +63,35 @@ pluralize(12, 'Monkey');
 
 document.write("<br><br>");
 
-document.write("<h1><center>Exercises: for loops</h1><center>");
+
+//LOOPS EXERCISES The even/odd reporter//
+
+document.write("<h3><center>Exercises: for loops</h3><center>");
+
+for (var i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+        document.write(i + ' is even');
+    } else {
+        document.write(i + ' is odd');
+    }
+}
+
+
+//Multiplication Tables//I NEED TO STUDY THIS IN DEEP//
+
+for (var i= 0;i <= 10;) {
+    if (i * 9 === 0){
+        document.write(i + ' Here you have something')
+
+    } else {
+
+
+    }
+
+
+}
+
+
 
 
 
