@@ -45,7 +45,7 @@ document.write("<br><br>");
 function pluralize(number, noun) {
     if (number > '1') {
         var plural = noun + 's';
-        var answer =   number + plural;
+        var answer = number + plural;
         document.write(answer);
     } else {
         (number = '1')
@@ -70,28 +70,62 @@ document.write("<h3><center>Exercises: for loops</h3><center>");
 
 for (var i = 0; i <= 20; i++) {
     if (i % 2 === 0) {
-        document.write(i + ' is even');
+        document.write(i + ' is even ');
     } else {
-        document.write(i + ' is odd');
+        document.write(i + ' is odd ');
     }
 }
 
+document.write("<br><br>");
 
 //Multiplication Tables//I NEED TO STUDY THIS IN DEEP//
 
-for (var i= 0;i <= 10;) {
-    if (i * 9 === 0){
-        document.write(i + ' Here you have something')
-
-    } else {
-
-
-    }
-
+for (var i = 0; i <= 10; i++) {
+    var multiples = 9;
+    var result = multiples * i;
+    document.write(multiples + ' * ' + i + ' = ' + result);
 
 }
 
 
 
+document.write("<h3><center>Exercises: Arrays</h3><center>");
 
+
+document.write("<br><br>");
+
+//Here we are exercising arrays//
+
+var colors = ['red', 'blue', 'green', 'black', 'red'];
+for (var i = 0; i < colors.length; i++) {
+    var answerColors = ' My #' + (i + 1) + ' choice is ' + colors[i];
+    document.write(answerColors);
+}
+
+//Here we are using a loop For/if in order to pluralize or to add St, rd, th for every number//
+
+for (var i = 0; i < colors.length; i++) {
+    var colorsNum = i + 1;
+    var colorsNumSufix;
+    if (colorsNum == 1) {
+        colorsNumSufix = 'st';
+
+    } else if (colorsNum == 2) {
+        colorsNumSufix = 'nd';
+
+    } else if (colorsNum == 3) {
+        colorsNumSufix = 'rd';
+    } else {
+        colorsNumSufix = 'th';
+    }
+    var answerColors2 = '<br><br>' + 'My' + colorsNum + colorsNumSufix + ' choice is ' + colors[i];
+    document.write(answerColors2);
+
+}
+
+document.write("<br><br>");
+
+document.write("<img border='0' src='img/keanu2.jpg'>");
+
+document.write("<br><br>");
 
